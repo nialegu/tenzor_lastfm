@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="img/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="null_style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+          rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta
+            name="description"
+            content="Web site created using create-react-app"
+    />
+    <title>Last fm</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="header-wrapper">
+            <div class="header-start">
+                <a href="#" class="header-start__logo"><img src="img/logo.svg" alt="ico"/></a>
+            </div>
+            <div class="header-end">
+                <nav class="nav">
+                    <ul class="nav-wrapper">
+                        <li class="nav-wrapper__item"><a href="#">Artist</a></li>
+                        <li class="nav-wrapper__item"><a href="#">Tracks</a></li>
+                    </ul>
+                </nav>
+                <div class="search">
+                    <form class="search-form" action="">
+                        <input
+                                type="search"
+                                name="search"
+                                id="search"
+                                placeholder="Search"
+                        />
+                        <button class="search-btn"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="music">
+        <h1>MUSIC</h1>
+        <div class="artists">
+            <h2 class="subtitle">Hot right now</h2>
+           
+            <ul class="artists-list">
+                <li class="artist-card">
+                    <div class="circle artists__one "></div>
+                    <p class="artist-card__title">Tabia</p>
+                    <p class="genre">indie, rock</p>
+                </li>
+                <li class="artist-card">
+                    <div class="circle artists__two "></div>
+                    <p class="artist-card__title">bring me the horizon</p>
+                    <p class="genre">metal, rock</p>
+                </li>
+                <li class="artist-card">
+                    <div class="circle artists__three "></div>
+                    <p class="artist-card__title">Dora</p>
+                    <p class="genre">pop, hip-hop</p>
+                </li>
+                <li class="artist-card">
+                    <div class="circle artists__four "></div>
+                    <p class="artist-card__title">Red sugar</p>
+                    <p class="genre">rock</p>
+                </li>
+                <li class="artist-card">
+                    <div class="circle artists__five "></div>
+                    <p class="artist-card__title">korol i shut</p>
+                    <p class="genre">punk</p>
+                </li>
+                <li class="artist-card">
+                    <div class="circle artists__six "></div>
+                    <p class="artist-card__title">loqiemean</p>
+                    <p class="genre">rap</p>
+                </li>
+            </ul>
+        </div>
+        <div class="popular-tracks">
+            <h2 class="subtitle">Popular tracks</h2>
+            <ul class="tracks-list">
+                <li class="popular-track">
+                    <div class="track-cover track__one"></div>
+                    <div class="track-info">
+                        <p class="track-info__title">Razletayas' i padaya</p>
+                        <p>Tabia</p>
+                        <p class="genre">indie, rock</p>
+                    </div>
+                </li>
+                <li class="popular-track">
+                    <div class="track-cover track__two"></div>
+                    <div class="track-info">
+                        <p class="track-info__title">Proletaya etaji</p>
+                        <p>Tabia</p>
+                        <p class="genre">indie, rock</p>
+                    </div>
+                </li>
+                <li class="popular-track">
+                    <div class="track-cover track__three"></div>
+                    <div class="track-info">
+                        <p class="track-info__title">Pesnya pro molodost'</p>
+                        <p>Tabia</p>
+                        <p class="genre">indie, rock</p>
+                    </div>
+                </li>
+                <li class="popular-track">
+                    <div class="track-cover track__four"></div>
+                    <div class="track-info">
+                        <p class="track-info__title">Kukla kolduna</p>
+                        <p>Korol i shut</p>
+                        <p class="genre">punk</p>
+                    </div>
+                </li>
+                <li class="popular-track">
+                    <div class="track-cover track__five"></div>
+                    <div class="track-info">
+                        <p class="track-info__title">Lesnik</p>
+                        <p>korol i shut</p>
+                        <p class="genre">punk</p>
+                    </div>
+                </li>
+                <li class="popular-track">
+                    <div class="track-cover track__six"></div>
+                    <div class="track-info">
+                        <p class="track-info__title">Kamnem po golove</p>
+                        <p>Korol i shut</p>
+                        <p class="genre">punk</p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-text">
+            <a href="#" class="head-text">COMPANY</a>
+            <a href="#" class="child-text">About Last.fm</a>
+            <a href="#" class="child-text">Contact Us</a>
+            <a href="#" class="child-text">Jobs</a>
+        </div>
+        <div class="footer-text">
+            <a href="#" class="head-text">HELP</a>
+            <a href="#" class="child-text">Track My Music</a>
+            <a href="#" class="child-text">Community Suaaort</a>
+            <a href="#" class="child-text">Hela</a>
+        </div>
+        <div class="footer-text">
+            <a href="#" class="head-text">GOODIES</a>
+            <a href="#" class="child-text">Download Scrobbler</a>
+            <a href="#" class="child-text">Develoaer API</a>
+            <a href="#" class="child-text">Merchandise</a>
+        </div>
+        <div class="footer-text">
+            <a href="#" class="head-text">FOLLOW US</a>
+            <a href="#" class="child-text">Facebook</a>
+            <a href="#" class="child-text">Twitter</a>
+            <a href="#" class="child-text">YouTube</a>
+        </div>
+    </footer>
+</div>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root"></div>
+</body>
+</html>
